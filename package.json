@@ -1,0 +1,43 @@
+{
+  "name": "dynamic-compile-tsx-commond",
+  "version": "1.0.0",
+  "description": "Dynamically compile TSX/TS files and execute them.",
+  "main": "./lib/index.js",
+  "bin": {
+    "dctc": "./bin/index.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteamedBread2333/dynamic-compile-tsx-commond.git"
+  },
+  "keywords": [
+    "dynamically",
+    "complie",
+    "tsx",
+    "ts"
+  ],
+  "author": "pipi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SteamedBread2333/dynamic-compile-tsx-commond/issues"
+  },
+  "homepage": "https://github.com/SteamedBread2333/dynamic-compile-tsx-commond#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^13.1.0",
+    "esbuild": "^0.24.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^5.7.3"
+  }
+}
