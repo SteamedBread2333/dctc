@@ -1,6 +1,6 @@
 {
-  "name": "dynamic-compile-tsx-commond",
-  "version": "1.0.0",
+  "name": "dctc",
+  "version": "1.0.1",
   "description": "Dynamically compile TSX/TS files and execute them.",
   "main": "./lib/index.js",
   "bin": {

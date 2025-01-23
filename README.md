@@ -1,5 +1,5 @@
 # dynamic-compile-tsx-commond(dctc)
-Dynamically compile TSX/TS files and execute them.
+Dynamically compile TSX/TS file and execute it.
 
 ## Usage
 ```
@@ -14,7 +14,7 @@ dctc [options] <file>
 
 ## Installation
 ```shell
-npm install -g dynamic-compile-tsx-commond
+npm install -g dctc
 ```
 
 ## Example
