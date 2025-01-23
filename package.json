@@ -21,10 +21,18 @@
     "url": "git+https://github.com/SteamedBread2333/dynamic-compile-tsx-commond.git"
   },
   "keywords": [
-    "dynamically",
-    "complie",
+    "cli",
+    "runtime",
+    "node",
+    "cjs",
+    "commonjs",
+    "esm",
+    "typescript",
+    "typescript runner",
+    "typeScript execute",
     "tsx",
-    "ts"
+    "tsx runner",
+    "tsx execute"
   ],
   "author": "pipi",
   "license": "MIT",
