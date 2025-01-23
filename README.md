@@ -80,7 +80,7 @@ export default Footer;
 
 ### Step 2: Create a tsx script file
 
-#### generate-html.tsx
+#### `/generate-html.tsx`
 
 ```tsx
 import { renderToString } from 'react-dom/server'
@@ -103,7 +103,7 @@ work()
 dctc generate-html.tsx
 ```
 
-### You now have `page.html`, which looks like this
+#### The `page.html` file has been generated, and it looks like this
 
 ```html
 <div style="color:pink">
@@ -120,7 +120,7 @@ dctc generate-html.tsx
 </div>
 ```
 
-### Open the file in your browser and you'll see
+#### Open the file `page.html` with your browser
 
 <img width="441" alt="image" src="https://github.com/user-attachments/assets/67d82e20-81e8-4a98-8bb6-0175efd2bb30" />
 
