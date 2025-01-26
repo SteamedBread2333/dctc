@@ -4,6 +4,10 @@
   <br/>
 </h1>
 
+[![npm version](https://img.shields.io/npm/v/dctc.svg?style=flat-square)](https://www.npmjs.com/package/dctc)
+[![npm downloads](https://img.shields.io/npm/dt/dctc.svg?style=flat-square)](https://www.npmjs.com/package/dctc)
+[![deps](https://img.shields.io/github/license/SteamedBread2333/dctc.svg)](https://www.npmjs.com/package/dctc)
+
 TypeScript Execute (tsx): Dynamically compile TSX/TS file and execute it.
 
 `dctc` may be similar tools in the fastest speed of execution!!  <img src="https://emojis.slackmojis.com/emojis/images/1643514389/3643/cool-doge.gif?1643514389" width="30"/>
