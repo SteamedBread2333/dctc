@@ -140,5 +140,13 @@ dctc generate-html.tsx
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.
 
+## Scene
+Some scenarios where you need to compile and execute tsx. 
+- Developed using react, and needed to generate an html template for email.
+- When you want to preview a react component, but there is no suitable playground.
+
+## Notice
+If you need to load the style file, perform an additional loader and eventually insert the style into the html template in the product, but the email template does not support external style import.
+
 ## License
 MIT
