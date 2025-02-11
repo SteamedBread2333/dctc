@@ -150,13 +150,3 @@ If you need to load the style file, perform an additional loader and eventually 
 
 ## License
 MIT
-
-## Star History
-
-<a href="https://star-history.com/#SteamedBread2333/dctc&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=SteamedBread2333/dctc&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=SteamedBread2333/dctc&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=SteamedBread2333/dctc&type=Date" />
- </picture>
-</a>
