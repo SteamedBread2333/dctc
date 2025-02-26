@@ -1,6 +1,6 @@
 <h1 align="center">
   <br/>
-    <img src="https://emojis.slackmojis.com/emojis/images/1699040186/73833/yellow_bee.gif?1699040186" width="100"/>
+    <img src="https://github.com/user-attachments/assets/df254f50-3f84-4e16-abc3-a7334bd6e577" width="260"/>
   <br/>
 </h1>
 
