@@ -36,6 +36,11 @@ jobs:
       - name: Update package.json for GitHub Packages
         run: |
           npm pkg set name="@${{ github.repository_owner }}/dctc"
+          npm pkg set publishConfig.registry="https://npm.pkg.github.com"
+      - name: Verify registry configuration
+        run: |
+          echo "Package name: $(npm pkg get name)"
+          echo "Registry: $(npm config get registry)"
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
