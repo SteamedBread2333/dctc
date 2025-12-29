@@ -154,6 +154,54 @@ Some scenarios where you need to compile and execute tsx.
 - Developed using react, and needed to generate an html template for email.
 - When you want to preview a react component, but there is no suitable playground.
 
+## Performance (ASCII)
+
+Benchmark setup:
+- Entry: `test/generate-html.bench.tsx` (same as `test/generate-html.tsx`, but does **not** write files)
+- Per compiler: **compile 1x + execute 10000x**
+
+Raw numbers:
+
+```
+compiler   compile(ms)  exec_total(ms)  exec_avg(ms)  ops(/s)
+swc        13.5         1922.8         0.1923       5200.7
+es         13.1         2438.2         0.2438       4101.4
+rollup     850.4        6817.4         0.6817       1466.8
+rolldown   318.1        7709.3         0.7709       1297.1
+```
+
+Visuals (pure ASCII):
+
+Compile time (ms)  [lower is better]  (scale: max=850.4ms => 40 cols)
+
+```
+compiler  value    bar
+es        13.1ms  |#                                       |
+swc       13.5ms  |#                                       |
+rolldown  318.1ms |###############                         |
+rollup    850.4ms |########################################|
+```
+
+Execution avg (ms) [lower is better] (scale: max=0.7709ms => 40 cols)
+
+```
+compiler  value      bar
+swc       0.1923ms |##########                              |
+es        0.2438ms |#############                           |
+rollup    0.6817ms |###################################     |
+rolldown  0.7709ms |########################################|
+```
+
+Throughput (ops/s) [higher is better] (scale: max=5200.7/s => 40 cols)
+
+```
+compiler  value     bar
+swc       5200.7/s |########################################|
+es        4101.4/s |###############################         |
+rollup    1466.8/s |###########                             |
+rolldown  1297.1/s |##########                              |
+```
+
 ## Notice
 If you need to load the style file, perform an additional loader and eventually insert the style into the html template in the product, but the email template does not support external style import.
 
