@@ -14,11 +14,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "node test/run-all-tests.js",
-    "test:basic": "node test/test-runner.js",
-    "test:verify": "node test/verify-output.js",
-    "test:output": "node test/save-output.js",
-    "test:example": "node test/test-example.js"
+    "test": "node bin/index.js test/test.ts"
   },
   "repository": {
     "type": "git",

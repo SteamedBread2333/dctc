@@ -129,5 +129,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# Test output files
+# Test output files and temporary files
 test/output/
+test/page.html
