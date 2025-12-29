@@ -17,7 +17,7 @@ const logErr = (content: string) => console.log(chalk.red(content));
 const logInfo = (content: string) => console.log(chalk.blue(content));
 const logTitle = (content: string) => console.log(chalk.bold.cyan(content));
 
-const compilers = ['es', 'rollup', 'rolldown'] as const;
+const compilers = ['es', 'swc', 'rollup', 'rolldown'] as const;
 
 const projectRoot = path.resolve(__dirname, '..');
 const testDir = __dirname;

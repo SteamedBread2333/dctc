@@ -21,7 +21,7 @@ dctc [options] <file>
 ```
 -h, --help                    display help for command
 -v, --version                 output the version number
--c, --compiler <name>         specify compiler: es, rollup, rolldown (default: es)
+-c, --compiler <name>         specify compiler: es, swc, rollup, rolldown (default: es)
 ```
 
 ## Installation
@@ -118,6 +118,7 @@ dctc generate-html.tsx
 Or specify a compiler:
 
 ```shell
+dctc --compiler swc generate-html.tsx
 dctc --compiler rollup generate-html.tsx
 dctc -c rolldown generate-html.tsx
 ```
