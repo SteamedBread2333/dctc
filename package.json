@@ -14,7 +14,11 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/run-all-tests.js",
+    "test:basic": "node test/test-runner.js",
+    "test:verify": "node test/verify-output.js",
+    "test:output": "node test/save-output.js",
+    "test:example": "node test/test-example.js"
   },
   "repository": {
     "type": "git",
@@ -41,11 +45,17 @@
   },
   "homepage": "https://github.com/SteamedBread2333/dynamic-compile-tsx-commond#readme",
   "dependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.0",
     "chalk": "^4.1.2",
     "commander": "^13.1.0",
     "esbuild": "^0.24.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "rolldown": "^0.12.0",
+    "rollup": "^4.21.0",
+    "tslib": "^2.8.1",
     "typescript": "^5.7.3"
   }
 }
