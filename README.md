@@ -19,8 +19,9 @@ dctc [options] <file>
 
 ## Options
 ```
--h, --help      display help for command
--v, --version   output the version number
+-h, --help                    display help for command
+-v, --version                 output the version number
+-c, --compiler <name>         specify compiler: es, rollup, rolldown (default: es)
 ```
 
 ## Installation
@@ -112,6 +113,13 @@ work()
 
 ```shell
 dctc generate-html.tsx
+```
+
+Or specify a compiler:
+
+```shell
+dctc --compiler rollup generate-html.tsx
+dctc -c rolldown generate-html.tsx
 ```
 
 #### The `page.html` file has been generated, and it looks like this
