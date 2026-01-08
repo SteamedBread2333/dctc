@@ -5,7 +5,7 @@
 </h1>
 
 [![npm version](https://img.shields.io/npm/v/dctc.svg?style=for-the-badge)](https://www.npmjs.com/package/dctc)
-[![npm downloads](https://img.shields.io/npm/dt/dctc.svg?style=for-the-badge)](https://www.npmjs.com/package/dctc)
+[![npm downloads](https://img.shields.io/npm/d18m/wecipher.svg?style=for-the-badge)](https://www.npmjs.com/package/dctc)
 [![deps](https://img.shields.io/github/license/SteamedBread2333/dctc.svg?style=for-the-badge)](https://www.npmjs.com/package/dctc)
 
 TypeScript Execute (tsx): Dynamically compile TSX/TS file and execute it.
